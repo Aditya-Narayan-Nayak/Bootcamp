@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" height="280" width="380" />
+            </div>
+            <h1 class="head">My Projects</h1>
+            <p class="para">These are a few Website that I have developed using HTML,CSS,Bootstrap</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="project-card">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" height="100" width="200" class="jason" onclick="display('sectionatc')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" height="100" width="200" class="jason" onclick="display('sectiondewali')" />
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" height="100" width="200" class="jason" onclick="display('sectionfood')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" height="100" width="200" class="jason" onclick="display('sectionnews')" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionatc">
+        <div class="atc-bg-container d-flex flex-column justify-content-end">
+            <div class="atc-card-container">
+                <h1 class="atc-heading-container">
+                    Advanced Technologies
+                </h1>
+                <p class="atc-para-container">
+                    Machinary and equipment developed from the application of scientific knowledge
+                </p>
+
+                <div>
+                    <button class="atc-button1">
+                        Learn more
+                    </button>
+                    <button class="atc-button2">
+                        save Draft
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondewali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary">View More</button>
+        </div>
+    </div>
+
+    <div id="sectionfood">
+        <div class="fo-bg-container d-flex flex-column justify-content-end ">
+            <div class="fo-tourism-card">
+                <h1 class="fo-main-heading">Happy Meals</h1>
+                <p class="fo-paragraph">Discover the best food over the 1000 resturants</p>
+                <button class="fo-button">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionnews">
+        <div class="nw-bg-container d-flex flex-column justify-content-end">
+            <div class="nw-card-container">
+                <h1 class="nw-card-heading1">
+                    NEWS OF THE DAY
+                </h1>
+                <p class="nw-card-heading2">
+                    All educational institutes in Assam to reopen from November 2
+                </p>
+                <p class="nw-card-paragraph">
+                    Uttarpradesh's Gautam buddah nagar recorded new
+                    covid-19 cases on saturday pushing the discrict's
+                    infection tally to 15,083 Official data showed.the number
+                    of active cases came down futhur to 1,384 from 1,477 on
+                    Friday and 1,523 on thursday accroding to the data
+                    realsed by up health department for a 24 hour period
+                </p>
+                <button class="btn btn-dark">Read more</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

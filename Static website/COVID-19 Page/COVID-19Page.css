@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top-card-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.top-card {
+    padding: 10px;
+}
+
+.two-card {
+    padding: 20px;
+    background-color: #0967d219;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.two-class-heading {
+    font-size: 20px;
+}
+
+.symptoms {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.cough {
+    background-color: #3ebd93;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 90px;
+}
+
+.cough-para {
+    color: white;
+    font-size: 14px;
+}
+
+.fever {
+    background-color: #e668a7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 90px;
+}
+
+.fever-para {
+    color: white;
+    font-size: 14px;
+}
+
+.headche {
+    background-color: #a368fc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 90px;
+}
+
+.headche-para {
+    color: white;
+    font-size: 14px;
+}
+
+.videos {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.gb-container {
+    background-color: #e12d3919;
+
+}
+
+.prevent {
+    font-weight: 500;
+}

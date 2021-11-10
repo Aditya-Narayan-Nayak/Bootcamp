@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card-container">
+                <h1 class="head">Sunrise Avenue</h1>
+                <p class="para">Move to what move you</p>
+                <button class="button" onclick="display('sectiondetail')">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetail">
+        <div class="bg-container-two">
+            <h1 class="head-two">Sunrise Avenue</h1>
+            <div class="mid-card d-flex flex-row" onclick="display('section3bhk')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" width="70vh" height="170vw" />
+                <div class="mid-card-record">
+                    <h1 class="head-card">3BHK Flat</h1>
+                    <p class="para-card">
+                        this is a fully funished house with handmade fornite
+                        including a luxury en-suite-facilities pack. its built-up area
+                        is about 1600sq.ft
+                    </p>
+                </div>
+            </div>
+
+            <div class="mid-card d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" width="70vh" height="170vw" />
+                <div class="mid-card-record">
+                    <h1 class="head-card">2BHK Flat</h1>
+                    <p class="para-card">
+                        A minimalist house mode for morden-day family. it is fully furnished with trending furniture.
+                        its built-up area is about 1200sq.ft
+                    </p>
+                </div>
+            </div>
+
+            <div class="mid-card d-flex flex-row ">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" width="70vh" height="170vw" />
+                <div class="mid-card-record">
+                    <h1 class="head-card">4BHK Flat</h1>
+                    <p class="para-card">
+                        A cootemporary home with more color and vibrancy .it is fully furnished with elegant
+                        furniture it's build-up area is 3600sq.ft
+                    </p>
+                </div>
+            </div>
+
+            <button class="button" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+
+    <div id="section3bhk">
+        <div class="bg-container-three"></div>
+        <div class="card-container-two">
+            <h1 class="head-three">Rs 3000/-</h1>
+            <div class="address d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" height="19" width="19" class="pic" />
+                <p class="para-three">D/N 5-2, Food Street,Indore</p>
+            </div>
+            <hr class="hr">
+            <h1 class="head-three">Description</h1>
+            <p class="para-four">
+                This is fully funished house with handmade
+                furniture including a luxury en-suite-facilities
+                pack. it build-up area is about 1600sq.A
+                spacious home for you to live in.
+            </p>
+            <div class="last-button d-flex flex-row justify-content-center">
+                <button class="button-two">Conform</button>
+                <button class="button-two" onclick="display('sectiondetail')">back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

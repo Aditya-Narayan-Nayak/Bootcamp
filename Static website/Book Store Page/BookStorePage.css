@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #1b1b1b;
+    padding: 20px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 28px;
+    font-family: "Roboto";
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wings-card-container {
+    border-radius: 10px;
+    background-color: #e6f6ff;
+}
+
+.wing-card-bg-container {
+    padding: 15px;
+    margin: 5px;
+}
+
+.card-heading {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: "Bree Serif";
+    color: #183b56;
+}
+
+.para-card {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.para-card-two {
+    font-size: 12px;
+}
+
+.Recommandded-head {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.chetan-card-container {
+    border-radius: 10px;
+    background-color: #AARRGGBB;
+}
+
+.cetan-wing-card-bg-container {
+
+    padding-left: 10px;
+}
+
+.cetan-card-heading {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: "Bree Serif";
+    color: white;
+}
+
+.cetan-para-card {
+    font-size: 13px;
+    color: white;
+}
+
+.harrypotter-card-container {
+    border-radius: 10px;
+    background-color: #AARRGGBB;
+    padding-top: 10px;
+}
+
+.centering {
+    text-align: center;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.wing-para-card {
+    font-size: 13px;
+    color: white;
+    font-family: "Bree Serif";
+}

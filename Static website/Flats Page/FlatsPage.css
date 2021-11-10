@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.head {
+    font-family: "roboto";
+    font-size: 26px;
+    color: #e67300;
+    font-weight: bold;
+    margin-top: 8vh;
+}
+
+.para {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #7b8794;
+    margin-bottom: 8vh;
+}
+
+
+.button {
+    color: white;
+    background-color: #e67300;
+    width: 110px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 8vh;
+}
+
+.bg-container-two {
+    background-color: #222222;
+    background-size: cover;
+    height: 130vh;
+    padding: 15px;
+}
+
+.head-two {
+    font-family: "roboto";
+    font-size: 32px;
+    color: #e67300;
+    font-weight: bold;
+
+}
+
+.mid-card {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.head-card {
+    font-size: 23px;
+    font-family: "roboto";
+    font-weight: 900;
+    color: #000099;
+}
+
+.para-card {
+    font-size: 15px;
+    color: #6c6b70;
+    font-family: "roboto";
+    font-weight: 700;
+}
+
+.mid-card-record {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.bg-container-three {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png");
+    background-size: cover;
+    height: 40vh;
+}
+
+.card-container-two {
+    background-color: #222222;
+    background-size: cover;
+    padding: 20px;
+}
+
+.head-three {
+    font-family: "roboto";
+    font-size: 25px;
+    color: #e67300;
+    font-weight: bold;
+}
+
+.para-three {
+    color: white;
+    margin-left: 10px;
+    font-family: "roboto";
+}
+
+.pic {
+    margin-top: 4px;
+}
+
+.address {
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.hr {
+    border: 1px solid white;
+}
+
+.para-four {
+    color: white;
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: 700;
+}
+
+.button-two {
+    color: white;
+    background-color: #e67300;
+    width: 70px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+
+}

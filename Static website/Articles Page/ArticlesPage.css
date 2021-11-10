@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #225db0;
+    background-size: cover;
+    height: 100vh;
+    padding: 45px;
+    color: #ffffff;
+}
+
+.head {
+    font-size: 32px;
+}
+
+.para {
+    font-size: 25;
+    font-family: "Roboto";
+}
+
+.puri-card {
+    padding-left: 20px;
+
+}
+
+.puri {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px;
+    border-color: #cbd2d9;
+    margin: 8px;
+    background-color: white;
+    color: black;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.puri-head {
+    font-size: 15px;
+    text-align: center;
+}
+
+.bg-container-tech {
+    background-color: #225db0;
+    background-size: cover;
+    height: 120vh;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.button {
+    color: white;
+    background-color: #225db0;
+    width: 100px;
+    height: 36px;
+    border: 1px solid white;
+    margin-left: 25vh;
+}
+
+.list-head {
+    font-size: 20px;
+}

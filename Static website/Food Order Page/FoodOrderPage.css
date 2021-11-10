@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.fo-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.fo-tourism-card {
+    background-color: #f6c56e;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: 600;
+    color: #323f4b;
+}
+
+.fo-main-heading {
+    font-family: "bree serif";
+
+}
+
+.fo-paragraph {
+    font-family: "Roboto";
+}
+
+.fo-button {
+    height: 36px;
+    width: 138px;
+    background-color: #ffffff;
+    color: blue;
+    border-radius: 8px;
+    border-width: 0px;
+    font-weight: 600;
+
+}

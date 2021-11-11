@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#navitem1 {
+    color: #323f4b;
+}
+
+#navitem2 {
+    color: black;
+}
+
+#navitem3 {
+    color: black;
+}
+
+#navitem4 {
+    color: black;
+}
+
+.vr-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.content-button {
+    color: #ccd1e5;
+    background-color: #1a2137;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content-head {
+    color: white;
+    font-weight: bold;
+}

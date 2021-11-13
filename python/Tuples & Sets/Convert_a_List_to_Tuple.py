@@ -5,3 +5,4 @@ for item in a:
     a[i] = int(item)
     i += 1
 print(tuple(a))
+
